@@ -79,10 +79,10 @@ public class SampleTeleOp extends LinearOpMode {
         shooter1 = hardwareMap.get(DcMotorEx.class, "shooter1");
         shooter2 = hardwareMap.get(DcMotorEx.class, "shooter2");
 
-        leftFront = hardwareMap.get(DcMotorEx.class, "leftFront");
-        leftBack = hardwareMap.get(DcMotorEx.class, "leftBack");
-        rightFront = hardwareMap.get(DcMotorEx.class, "rightFront");
-        rightBack = hardwareMap.get(DcMotorEx.class, "rightBack");
+        leftFront = hardwareMap.get(DcMotor.class, "leftFront");
+        leftBack = hardwareMap.get(DcMotor.class, "leftBack");
+        rightFront = hardwareMap.get(DcMotor.class, "rightFront");
+        rightBack = hardwareMap.get(DcMotor.class, "rightBack");
 
         flicker1 = hardwareMap.get(Servo.class, "flicker");
         wobble1 = hardwareMap.get(Servo.class, "wobble1");
